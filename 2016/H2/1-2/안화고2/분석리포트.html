@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>안화고 2학년 대수 2차 지필평가 분석 | 대치 Math4U</title>
+<style>
+  :root{
+    --orange:#F4620A;
+    --orange-light:#ff8a3d;
+    --bg:#0f0f12;
+    --card:#1a1a1f;
+    --card2:#212127;
+    --border:#2c2c33;
+    --text:#eaeaea;
+    --text-dim:#9a9aa5;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif;
+    line-height:1.7;
+  }
+  .wrap{max-width:900px;margin:0 auto;padding:40px 24px 80px;}
+  .hero{
+    background:linear-gradient(135deg,var(--orange) 0%, #c94806 100%);
+    border-radius:20px;
+    padding:44px 36px;
+    margin-bottom:32px;
+    box-shadow:0 20px 50px rgba(244,98,10,0.25);
+  }
+  .hero .tag{
+    display:inline-block;
+    background:rgba(255,255,255,0.2);
+    padding:6px 16px;border-radius:20px;
+    font-size:13px;font-weight:700;letter-spacing:0.5px;
+    margin-bottom:16px;
+  }
+  .hero h1{font-size:32px;margin:0 0 10px;color:#fff;font-weight:800;}
+  .hero p{margin:0;color:rgba(255,255,255,0.85);font-size:15px;}
+  .info-grid{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:32px;
+  }
+  .info-box{
+    background:var(--card);border:1px solid var(--border);
+    border-radius:14px;padding:18px 14px;text-align:center;
+  }
+  .info-box .label{font-size:12px;color:var(--text-dim);margin-bottom:6px;}
+  .info-box .value{font-size:18px;font-weight:800;color:var(--orange-light);}
+  section{margin-bottom:36px;}
+  h2{
+    font-size:20px;color:#fff;border-left:5px solid var(--orange);
+    padding-left:14px;margin-bottom:18px;font-weight:800;
+  }
+  h3{font-size:16px;color:var(--orange-light);margin:20px 0 10px;font-weight:700;}
+  table{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden;}
+  th,td{padding:12px 14px;text-align:center;border-bottom:1px solid var(--border);font-size:14px;}
+  th{background:var(--card2);color:var(--orange-light);font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  .bar-row{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+  .bar-label{width:110px;font-size:13px;color:var(--text-dim);flex-shrink:0;}
+  .bar-track{flex:1;background:var(--card2);border-radius:8px;height:22px;overflow:hidden;}
+  .bar-fill{height:100%;background:linear-gradient(90deg,var(--orange),var(--orange-light));border-radius:8px;}
+  .bar-val{width:56px;text-align:right;font-size:13px;font-weight:700;color:var(--orange-light);}
+  .diff-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
+  .diff-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;text-align:center;}
+  .diff-card .n{font-size:26px;font-weight:800;}
+  .diff-card .l{font-size:13px;color:var(--text-dim);margin-top:4px;}
+  .d-low .n{color:#7dd87d;}
+  .d-mid .n{color:#7db8ff;}
+  .d-high .n{color:#ffb84d;}
+  .d-killer .n{color:#ff6b6b;}
+  .killer-card{
+    background:var(--card);border:1px solid var(--border);
+    border-left:4px solid var(--orange);
+    border-radius:12px;padding:20px;margin-bottom:16px;
+  }
+  .killer-card .num{
+    display:inline-block;background:var(--orange);color:#fff;
+    font-weight:800;font-size:13px;padding:4px 12px;border-radius:20px;margin-bottom:10px;
+  }
+  .killer-card .pt{color:var(--text-dim);font-size:13px;margin-left:8px;}
+  .killer-card p{margin:8px 0 0;font-size:14px;color:var(--text);}
+  .kw-wrap{display:flex;flex-wrap:wrap;gap:10px;}
+  .kw{
+    background:rgba(244,98,10,0.15);color:var(--orange-light);
+    padding:8px 16px;border-radius:20px;font-size:14px;font-weight:700;
+    border:1px solid rgba(244,98,10,0.3);
+  }
+  .summary-card{
+    background:var(--card);border:1px solid var(--border);
+    border-radius:16px;padding:26px;font-size:15px;line-height:1.9;
+  }
+  .footer{text-align:center;color:var(--text-dim);font-size:12px;margin-top:50px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <span class="tag">EXAM ANALYSIS</span>
+    <h1>안화고 2학년 대수<br>2026-1학기 2차 지필평가 분석</h1>
+    <p>대치 Math4U 전문가 리포트 · 동탄 북광장</p>
+  </div>
+
+  <div class="info-grid">
+    <div class="info-box"><div class="label">학교</div><div class="value">안화고</div></div>
+    <div class="info-box"><div class="label">학년</div><div class="value">2학년</div></div>
+    <div class="info-box"><div class="label">과목</div><div class="value">대수</div></div>
+    <div class="info-box"><div class="label">문항수</div><div class="value">23문항</div></div>
+  </div>
+
+  <section>
+    <h2>01. 단원별 출제 현황</h2>
+    <table>
+      <tr><th>단원</th><th>출제 문항</th><th>문항수</th><th>배점 합계</th></tr>
+      <tr><td>삼각함수 (사인·코사인법칙)</td><td>2, 3, 20, 21, 22</td><td>5</td><td>22.0점</td></tr>
+      <tr><td>등차수열</td><td>1, 4, 5, 9, 16</td><td>5</td><td>20.9점</td></tr>
+      <tr><td>수열의 합 (Σ)</td><td>7, 8, 10, 13, 14</td><td>5</td><td>21.5점</td></tr>
+      <tr><td>등비수열</td><td>6, 11, 17</td><td>3</td><td>12.9점</td></tr>
+      <tr><td>종합응용 (귀납법·점화식·도형융합)</td><td>12, 15, 18, 19, 23</td><td>5</td><td>22.7점</td></tr>
+    </table>
+    <h3 style="margin-top:24px;">단원별 배점 비중</h3>
+    <div class="bar-row"><div class="bar-label">삼각함수</div><div class="bar-track"><div class="bar-fill" style="width:96%"></div></div><div class="bar-val">22.0</div></div>
+    <div class="bar-row"><div class="bar-label">등차수열</div><div class="bar-track"><div class="bar-fill" style="width:92%"></div></div><div class="bar-val">20.9</div></div>
+    <div class="bar-row"><div class="bar-label">수열의 합</div><div class="bar-track"><div class="bar-fill" style="width:95%"></div></div><div class="bar-val">21.5</div></div>
+    <div class="bar-row"><div class="bar-label">등비수열</div><div class="bar-track"><div class="bar-fill" style="width:57%"></div></div><div class="bar-val">12.9</div></div>
+    <div class="bar-row"><div class="bar-label">종합응용</div><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><div class="bar-val">22.7</div></div>
+  </section>
+
+  <section>
+    <h2>02. 난이도 분포</h2>
+    <div class="diff-grid">
+      <div class="diff-card d-low"><div class="n">11</div><div class="l">하 (4.0~4.1점)</div></div>
+      <div class="diff-card d-mid"><div class="n">6</div><div class="l">중 (4.2~4.4점)</div></div>
+      <div class="diff-card d-high"><div class="n">4</div><div class="l">상 (4.5점)</div></div>
+      <div class="diff-card d-killer"><div class="n">5</div><div class="l">최상/킬러 (4.6~4.7점)</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>03. 문항별 핵심 포인트</h2>
+    <table>
+      <tr><th>번호</th><th>핵심 개념</th></tr>
+      <tr><td>1, 4, 5</td><td>등차수열 일반항 및 합의 최댓값</td></tr>
+      <tr><td>2, 3</td><td>코사인법칙 / 사인법칙 기본 적용</td></tr>
+      <tr><td>6, 11, 17</td><td>등비수열 일반항, 로그 결합, 조건 활용</td></tr>
+      <tr><td>7, 8, 10, 13, 14</td><td>시그마 성질, 수열의 합과 일반항 관계</td></tr>
+      <tr><td>9, 16</td><td>등차·등비수열 결합, 로그와 등차수열</td></tr>
+      <tr><td>12, 18</td><td>점화식으로 정의된 수열의 항 계산</td></tr>
+      <tr><td>15</td><td>수학적 귀납법 증명 완성</td></tr>
+      <tr><td>19, 20, 21, 22, 23</td><td>도형·함수·삼각비와 수열의 융합 고난도 문제</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>04. 킬러문항 심층분석</h2>
+
+    <div class="killer-card">
+      <span class="num">21번</span><span class="pt">[4.7점]</span>
+      <p>직육면체 내부에 정의된 세 점으로 이루어진 삼각형의 외접원 넓이를 구하는 문제. 코사인법칙으로 각 변의 길이와 각도를 구한 뒤, 삼각형 외접원 반지름 공식(R = a / 2sinA)을 적용해야 한다. 공간도형 감각과 삼각함수 공식을 동시에 요구하는 융합형 문항이다.</p>
+    </div>
+
+    <div class="killer-card">
+      <span class="num">22번</span><span class="pt">[4.7점]</span>
+      <p>부채꼴 내부의 한 점에 대한 각도·비율 조건(∠BPA&gt;90°, AP:BP=4:1)을 이용해 삼각형의 넓이를 구하는 문제. 코사인법칙을 세워 이차방정식으로 변의 길이를 구하고, 조건을 만족하는 경우를 판별하는 논리적 사고가 필요하다.</p>
+    </div>
+
+    <div class="killer-card">
+      <span class="num">23번</span><span class="pt">[4.7점]</span>
+      <p>공차가 2인 변의 길이 수열과 삼각형 넓이 공식(½ab sinθ)을 결합해 급수의 합을 구하는 문제. 등차수열의 일반항을 세운 뒤 삼각형 넓이 식에 대입하고, 이를 다시 급수로 정리하는 다단계 풀이 흐름이 요구된다.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>05. 출제 경향 키워드</h2>
+    <div class="kw-wrap">
+      <span class="kw">사인·코사인법칙</span>
+      <span class="kw">등차·등비수열 일반항</span>
+      <span class="kw">시그마(Σ) 성질</span>
+      <span class="kw">수학적 귀납법</span>
+      <span class="kw">도형-수열 융합</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>06. 전문가 총평</h2>
+    <div class="summary-card">
+      이번 안화고 2학년 대수 2차 지필평가는 삼각함수와 수열 단원을 균형 있게 배분해 개념의 정확한 이해와 활용력을 함께 평가했다. 1~14번은 기본 공식을 정확히 적용하면 해결 가능한 수준이며, 15~18번부터 난이도가 상승해 증명·점화식 처리 능력을 요구한다. 특히 19~23번 후반부 5문항은 삼각함수·수열·도형을 복합적으로 결합한 고난도 문제로 상위권 변별력을 확보하는 구조다.
+    </div>
+  </section>
+
+  <div class="footer">
+    대치 Math4U · 동탄 북광장 &nbsp;|&nbsp; 본 리포트는 학습 참고용으로 제작되었습니다.
+  </div>
+
+</div>
+</body>
+</html>
